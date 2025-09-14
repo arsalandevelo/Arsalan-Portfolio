@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arsalan | Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Arsalan</h1>
+    <nav>
+      <a href="#hero" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <div class="hamburger"><i class="fas fa-bars"></i></div>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-text">
+      <h2>Hello, I'm Arsalan 👋</h2>
+      <h3 class="typing">Web Developer | Designer | Freelancer</h3>
+      <p>I create modern, responsive, and interactive websites using HTML, CSS, JavaScript, Bootstrap, Git & GitHub.</p>
+      <a href="#projects" class="btn">View My Work</a>
+      <div class="socials">
+        <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+    <div class="hero-img">
+      <img src="profile.jpg" alt="Arsalan">
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about reveal" id="about">
+    <h2>About Me</h2>
+    <p>I specialize in crafting websites that merge aesthetics with performance. With a strong foundation in front-end technologies, I build seamless user experiences that adapt across all devices.</p>
+    <div class="skills">
+      <span class="skill-badge">HTML5</span>
+      <span class="skill-badge">CSS3</span>
+      <span class="skill-badge">JavaScript</span>
+      <span class="skill-badge">Bootstrap</span>
+      <span class="skill-badge">Git & GitHub</span>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="projects" id="projects">
+    <h2 class="reveal">Projects</h2>
+    <div class="project-grid">
+        <a href="#">
+      <div class="card">
+        <img src="https://via.placeholder.com/400x180" alt="Project 1">
+        <div class="card-content">
+          <h3>Portfolio Website</h3>
+          <p>Modern responsive portfolio with animations, dark/light theme, and smooth UI.</p>
+           <br>
+          <div class="language" >
+          <p>Html5</p> <p>CSS3</p> <p>JavaScript</p> <p>Bootstrap</p> 
+          </div>
+        </div>
+      </div>
+      </a>
+      <a href="#">
+      <div class="card">
+        <img src="https://via.placeholder.com/400x180" alt="Project 2">
+        <div class="card-content">
+          <h3>E-commerce Store</h3>
+          <p>A responsive online store with product pages, shopping cart, and checkout system.</p>
+        <br>
+          <div class="language" >
+          <p>Html5</p> <p>CSS3</p> <p>JavaScript</p> <p>Bootstrap</p> 
+          </div>
+        </div>
+      </div>
+      </a>
+      <a href="#">
+      <div class="card">
+        <img src="https://via.placeholder.com/400x180" alt="Project 3">
+        <div class="card-content">
+          <h3>Landing Page</h3>
+          <p>Clean, minimal design for startups and products to capture leads effectively.</p>
+       <br>
+          <div class="language" >
+          <p>Html5</p> <p>CSS3</p> <p>JavaScript</p> <p>Bootstrap</p> 
+          </div>
+        </div>
+      </div>
+      </a>
+    </div>
+  </section>
+  <section class="projects" id="education">
+    <h2 class="reveal">Qualification & Certification</h2>
+    <div class="project-grid">
+      <div class="card">
+        <div class="card-content">
+          <h3>Modern Web and App Development Course</h3> 
+          <div class="mine-heading">
+            <p>Continue</p>
+          </div>
+          <br>
+           <div class="content">
+            <p>Become a versatile developer by mastering the entire lifecycle of building dynamic web and mobile applications from front-end to back-end. </p>
+           </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-content">
+          <h3>Full Stack Digital Marketing & <br> E-Commers Course</h3> 
+        <div class="mine-heading">
+          <p>Continue</p>
+        </div>
+          <br>
+          <div class="content">
+            <p> Master the complete digital marketing ecosystem, from driving traffic with SEO and social media to building and managing your own e-commerce store. </p>
+           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact reveal" id="contact">
+    <h2>Contact Me</h2>
+    <br>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Arsalan. All rights reserved.</p>
+  </footer>
+
+</body>
+<script src="./script.js"></script>
+</html>
